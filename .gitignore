@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large / generated data
+data/raw/*
+data/extracted/*
+data/wikipedia/*
+data/joined/*
+data/indexes/*
+
+# Generated indexes
+*.index

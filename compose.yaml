@@ -1,0 +1,17 @@
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: steam-search-dev
+
+    working_dir: /workspace
+
+    volumes:
+      - .:/workspace
+
+    stdin_open: true
+    tty: true
+
+    command: sleep infinity
